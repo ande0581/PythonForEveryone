@@ -31,7 +31,8 @@ def main(**kwargs):
     # print names
     for url in all_urls:
         extracted_name = re.findall('known_by_(\S+).html', url)
-        print extracted_name[0]
+        if len(extracted_name) > 0:
+            print extracted_name[0]
 
 
 if __name__ == '__main__':
