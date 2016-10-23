@@ -3,6 +3,7 @@
 # Into the same folder as this program
 
 import urllib
+#import re  # beautiful soup already contains this
 from BeautifulSoup import *
 
 
